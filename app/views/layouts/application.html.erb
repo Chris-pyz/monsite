@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Monsite</title>
+    <title>Création de Site Web </title>
+    <meta name="description" content="Créations et créateur de sites web, de sites internet
+    et de sites e-commerce professionnels de qualités, en langage ruby, html5, CSS3, Js avec le framework Ruby on Rails,
+    à Marseille et dans toute la France">
+    <meta charset="UTF-8">
+    <meta name="author" content="Jullien Christophe">
+    <meta name="robots" content="index, follow">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +16,11 @@
   </head>
 
   <body>
+    <h1>Smart Web Site</h1>
+    <h3>Toutes les raisons pour Nous choisir</h3>
     <%= yield %>
+    <%= link_to "Mentions Légales", mentions_legales_path %> |
+    <%= link_to "Politique de Confidentialité", politiques_de_confidentialites_path %> |
+    <%= link_to "Conditions Générales", conditions_generales_path %>
   </body>
 </html>
