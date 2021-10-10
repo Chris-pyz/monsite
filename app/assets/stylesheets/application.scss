@@ -14,3 +14,11 @@
  *= require_self
  */
 @import "home";
+
+.entete {
+  background-image: url("bgtop.png");
+  background-size: contain;
+  padding: 100px 100px 81px 100px;
+  margin: -8px -8px 0px -8px;
+  background-repeat: no-repeat;
+}
